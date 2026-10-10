@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#030d1c">
+  <title>Liam Jatiko | Gaming</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <a class="brand" href="#home"><span class="logo">LJ</span> Liam Jatiko</a>
+
+  <button id="menuToggle" class="menu-toggle" aria-label="Open menu">☰</button>
+
+  <nav id="navLinks">
+    <a class="active" href="#home">Home</a>
+    <a href="#videos">Videos</a>
+    <a href="#games">Games</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <input id="searchInput" class="search"
+    type="search" placeholder="⌕  Search games, videos...">
+
+  <div class="social-top">
+    <a href="https://youtube.com/">▶</a>
+    <a href="https://tiktok.com/">♪</a>
+    <a href="https://discord.com/">◉</a>
+  </div>
+
+  <a class="button subscribe" href="#contact">Subscribe</a>
+</header>
+
+<main id="home">
+
+  <section class="hero">
+    <div class="hero-content">
+      <p class="welcome">WELCOME TO</p>
+      <h1>LIAM <span>JATIKO</span></h1>
+      <h2>Gaming <span>•</span> Fun <span>•</span> Big Dreams</h2>
+      <p>Roblox gameplay, challenges, and more! 🎮<br>
+        Subscribe and join the fam!</p>
+      <div class="hero-buttons">
+        <a class="button" href="#videos">▶ Watch Latest Video</a>
+        <a class="button outline" href="#games">Explore Games</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="layout">
+
+    <div class="main-column">
+      <section id="games">
+        <div class="section-heading">
+          <h2>🎮 Featured Games</h2>
+          <a href="#games">View All →</a>
+        </div>
+
+        <div class="game-grid" id="gameGrid">
+
+          <article class="game-card" data-search="roblox rivals">
+            <img src="assets/rivals.jpg" alt="Roblox RIVALS">
+            <div class="game-info">
+              <div>
+                <h3>Roblox RIVALS</h3>
+                <p>Intense battles, crazy moments!</p>
+              </div>
+              <a class="arrow" href="#videos">➜</a>
+            </div>
+          </article>
+
+          <article class="game-card" data-search="blox fruits">
+            <img src="assets/blox-fruits.jpg" alt="Blox Fruits">
+            <div class="game-info">
+              <div>
+                <h3>Blox Fruits</h3>
+                <p>Level up. Get stronger. Be the best!</p>
+              </div>
+              <a class="arrow" href="#videos">➜</a>
+            </div>
+          </article>
+
+          <article class="game-card" data-search="brookhaven rp">
+            <img src="assets/brookhaven.jpg" alt="Brookhaven RP">
+            <div class="game-info">
+              <div>
+                <h3>Brookhaven RP</h3>
+                <p>Roleplay, chill, have fun!</p>
+              </div>
+              <a class="arrow" href="#videos">➜</a>
+            </div>
+          </article>
+
+          <article class="game-card" data-search="obby games">
+            <img src="assets/obby.jpg" alt="Obby Games">
+            <div class="game-info">
+              <div>
+                <h3>Obby Games</h3>
+                <p>Jump, climb, survive!</p>
+              </div>
+              <a class="arrow" href="#videos">➜</a>
+            </div>
+          </article>
+
+        </div>
+        <p id="noResults" hidden>No games found.</p>
+      </section>
+
+      <section class="lower-grid" id="videos">
+        <article class="video-card">
+          <div class="video-image">
+            <img src="assets/latest-video.jpg" alt="Latest RIVALS gameplay">
+            <span class="play-icon">▶</span>
+            <span class="duration">8:24</span>
+          </div>
+
+          <div class="video-info">
+            <span class="pill">Latest Video</span>
+            <h3>Roblox RIVALS – INSANE Gameplay Highlights!</h3>
+            <p>Watch my best moments, funny clips, and intense fights in Roblox RIVALS!</p>
+            <small>◉ 12.4K views · 2 days ago</small>
+            <p><a class="button" href="#contact">Watch Now →</a></p>
+          </div>
+        </article>
+
+        <aside class="join-card">
+          <h3>♛ Join the Fam!</h3>
+          <p>Subscribe for more awesome content and never miss an upload.</p>
+          <a class="button" href="#contact">▶ Subscribe</a>
+          <p class="thanks">Thanks for the support! 💙</p>
+        </aside>
+      </section>
+    </div>
+
+    <aside class="sidebar">
+      <section class="side-card" id="about">
+        <h2>👤 About Me</h2>
+        <p>Hey! I'm Liam Jatiko — a young gamer who loves Roblox and all kinds of games. I make gameplay videos, challenges, and fun content. Join the journey, hit subscribe, and be part of the fam! 💙</p>
+        <div class="tags">
+          <span>Gamer</span>
+          <span>Creator</span>
+          <span>Dreamer</span>
+        </div>
+      </section>
+
+      <section class="side-card" id="contact">
+        <h2>🔗 Follow Me</h2>
+        <div class="follow-grid">
+          <a href="https://youtube.com/">
+            <b class="youtube">▶</b>
+            <strong>YouTube</strong>
+            <small>(Liam Jatiko)</small>
+          </a>
+          <a href="https://tiktok.com/">
+            <b class="tiktok">♪</b>
+            <strong>TikTok</strong>
+            <small>(@liamjatiko)</small>
+          </a>
+          <a href="https://discord.com/">
+            <b class="discord">◉</b>
+            <strong>Discord</strong>
+            <small>(Join my server)</small>
+          </a>
+        </div>
+      </section>
+    </aside>
+
+  </div>
+</main>
+
+<footer>© <span id="year"></span> Liam Jatiko · Gaming, Fun & Big Dreams</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
